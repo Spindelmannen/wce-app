@@ -1,0 +1,177 @@
+{
+  "courses": [
+    {
+      "courseId": 1,
+      "courseName": "Puppetry",
+      "courseNumber": 100,
+      "courseLength": "15 days",
+      "courseStart": "2023-02-01. 09:00 AM CEST",
+      "courseEducator": "Ciara Weller",
+      "courseInfo": "One of the oldest forms of entertainment and a convenient medium of bonding and moral education to children, puppetry can be studied as a professional course in the Westcoast Education Theatre, puppetry courses can help you develop a unique passion and learn about as well as preserve its rich cultural history."
+    },
+    {
+      "courseId": 2,
+      "courseName": "Rocket-Science",
+      "courseNumber": 200,
+      "courseLength": "344 days",
+      "courseStart": "2023-03-01. 09:00 AM CEST",
+      "courseInfo": "Westcoast Education offers you to build anykind of Rocket! There's alot of different types. With this course you will learn how to DIY."
+    },
+    {
+      "courseId": 3,
+      "courseName": "Space-Science(Astrobiology)",
+      "courseNumber": 300,
+      "courseLength": "355 days",
+      "courseStart": "2023-03-14. 21:00 PM CEST",
+      "courseEducator": "Harold Brown",
+      "courseInfo": "If you relish in partaking in debates about the existence of extra-terrestrial life, this course is perfect for you! Astrobiology is the interdisciplinary scientific field probing the origins, evolution and future of life in the universe, aiming to determine and detect if extra-terrestrial life exists in the universe"
+    },
+    {
+      "courseId": 4,
+      "courseName": "Horology",
+      "courseNumber": 400,
+      "courseLength": "20 days",
+      "courseStart": "2023-02-05. 07:00 AM CEST",
+      "courseEducator": "Kenny Renner",
+      "courseInfo": "Thought to be one of the only courses of its kind. Students on the Horology degree at WESTCOAST EDUCATION devote their time to... well.. time. Combining the art and science of time measurement. you could set yourself up for a nice career in the luxury watch industry. Or you could even nurture your inner entrepreneur and start your own time-related business. Time is money."
+    },
+    {
+      "courseId": 5,
+      "courseName": "Nutrition & Health",
+      "courseNumber": 500,
+      "courseLength": "25 days",
+      "courseStart": "2023-02-05. 09:00 AM CEST",
+      "courseInfo": "Thought to be one of the only courses of its kind."
+    },
+    {
+      "courseId": 6,
+      "courseName": "Viticulture and Oenology",
+      "courseNumber": 600,
+      "courseLength": "30 days",
+      "courseStart": "2023-03-24. 09:00 AM CEST",
+      "courseEducator": "Zoe Duncan",
+      "courseInfo": "A BSc (Hons) degree with the Wine department at WESTCOAST EDUCATION teaches you all about the science of grape-growing and wine-making. and is said to set you right up for a career in wine production. While some graduates have gone on to be vineyard managers. Winemakers and much more if you still can't get enough of the subject. You can even go on to do an MA and a PhD in it."
+    },
+    {
+      "courseId": 7,
+      "courseName": "Elvish",
+      "courseNumber": 700,
+      "courseLength": "20 days",
+      "courseStart": "2023-02-01. 09:00 AM CEST",
+      "courseEducator": "Ciara Weller",
+      "courseInfo": "Universities around the world teach global languages, but what if you could study the fantasy Elvish languages created by Tolkien in the Lord of the Ring universe? Westcoast Education offers a language course to the LOTR fans to study the Elvish and Orkish languages, which have their bases in real languages thus enabling them to be taught and spoken."
+    },
+    {
+      "id": "6cba9a24-2f2e-4137-8d89-3d7dbf2cd0bd",
+      "courseName": "Surfing",
+      "courseNumber": "203",
+      "courseLength": "30 days",
+      "courseStart": "2023-05-11",
+      "courseInfo": "Learn to Surf and slapin wavelips!"
+    }
+  ],
+  "teachers": [
+    {
+      "teacherId": 1,
+      "firstName": "Harold",
+      "lastName": "Brown",
+      "socialSecurityNumber": 19670621,
+      "email": "H-brown@Westcoasteducation.com",
+      "phone": "+1(555) 555-1234",
+      "skills": [
+        "Astrobiologist",
+        "Science",
+        "Professor"
+      ],
+      "courses": [
+        "Space-Science(Astrobiology)",
+        "Rocket-Science"
+      ]
+    },
+    {
+      "teacherId": 2,
+      "firstName": "Kenny",
+      "lastName": "Renner",
+      "socialSecurityNumber": 19881212,
+      "email": "K-Renner@Westcoasteducation.com",
+      "phone": "+1(555) 555-2244",
+      "skills": [
+        "Horologist",
+        "Mechanic",
+        "Engineering"
+      ],
+      "courses": [
+        "Horology",
+        "Mechanism"
+      ]
+    },
+    {
+      "teacherId": 3,
+      "firstName": "Ciara",
+      "lastName": "Weller",
+      "socialSecurityNumber": 19860801,
+      "email": "C-Weller@Westcoasteducation.com",
+      "phone": "+1(555) 555-4244",
+      "skills": [
+        "Puppetry",
+        "Elvish",
+        "Orcish"
+      ],
+      "courses": [
+        "Elvish",
+        "Puppetry"
+      ]
+    },
+    {
+      "teacherId": 4,
+      "firstName": "Zoe",
+      "lastName": "Duncan",
+      "socialSecurityNumber": 19920211,
+      "email": "Z-Duncan@Westcoasteducation.com",
+      "phone": "+1(555) 555-6234",
+      "skills": [
+        "Oenologist",
+        "Nutritionist",
+        "Health"
+      ],
+      "courses": [
+        "Nutrition & Health",
+        "Viticulture and Oenology"
+      ]
+    },
+    {
+      "id": "822a07d9-2e98-4a3f-bcd5-7e63f858ef20",
+      "firstName": "Tom",
+      "lastName": "Holland",
+      "socialSecurityNumber": "199505251322",
+      "email": "Tomholland@mail.com",
+      "phone": "01520113",
+      "skills": [
+        "Spiderman",
+        " Web",
+        " nesting."
+      ],
+      "courses": [
+        "Parkour gymnastic"
+      ]
+    },
+    {
+      "id": "70cc2b93-ad0b-4e97-88e2-d16a2babd2a8",
+      "firstName": "Celine",
+      "lastName": "Green",
+      "socialSecurityNumber": "199611236622",
+      "email": "CelineG@mail.com",
+      "phone": "+46 0731234455",
+      "skills": [
+        "Driving",
+        "F1",
+        "Nascar",
+        "Rally"
+      ],
+      "courses": [
+        "F1 intro",
+        "rally-cross"
+      ]
+    }
+  ]
+}

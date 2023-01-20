@@ -1,20 +1,12 @@
-.App {
-  text-align: center;
+.Header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items:flex-start;
+  text-align: start;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.App-wrapper {
+  background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 5%, rgba(0,212,255,1) 100%);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,17 +14,78 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 0% 10% 0% 10%;
+}
+.Navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: #fff;
 }
 
-.App-link {
-  color: #61dafb;
+.Navigation-item {
+  margin-right: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Navigation-item a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.Navigation-item a:hover {
+  text-decoration: underline;
+  color: #7f7f7f;
+}
+
+.Navigation-item a:active {
+  color: #4d4848;
+  text-decoration: underline;
+}
+
+.Company-title {
+  color: #fff;
+  margin-right:auto;
+  margin-left:10px;
+}
+.Admin-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Course-form, .Teacher-form {
+  width: 50%;
+}
+
+.Course-form-inputs, .Teacher-form-inputs{
+  display: flex;
+  flex-direction: column;
+}
+
+.Course-form-submit, .Teacher-form-submit {
+  margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+.App-wrapper{
+  margin: 0;
+  padding: 0;
+
+}
+.Teacher-box{
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  align-items: center;
+  justify-content: flex-start;
+}
+}
+
+a {
+color: rgb(230, 0, 255);
+margin: 2px;
 }
